@@ -1,0 +1,20 @@
+﻿IntroSE.Kanban.Frontend
+
+
+winexe
+C#
+.cs
+C:\Users\ynal6\Desktop\School\Semester B\Software Engineering\projectCheck\milestone1-emi\Frontend\obj\Debug\net5.0-windows\
+IntroSE.Kanban.Frontend
+none
+false
+TRACE;DEBUG;NET;NET5_0;NETCOREAPP
+C:\Users\ynal6\Desktop\School\Semester B\Software Engineering\projectCheck\milestone1-emi\Frontend\App.xaml
+14544987122
+
+43-480717183
+217-2127085827
+View\AddBoard.xaml;View\AddColumn.xaml;View\AddTask.xaml;View\BoardV.xaml;View\ColumnV.xaml;View\InProgressTasksV.xaml;View\Login.xaml;View\MainV.xaml;View\MainWindow.xaml;View\PopupErrorV.xaml;View\Register.xaml;View\TaskV.xaml;View\UserBoards.xaml;View\ViewTaskV.xaml;
+
+False
+

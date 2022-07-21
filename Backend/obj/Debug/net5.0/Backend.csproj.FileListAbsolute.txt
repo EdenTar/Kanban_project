@@ -1,0 +1,12 @@
+C:\Users\ynal6\Desktop\School\Semester B\Software Engineering\projectCheck\milestone1-emi\Backend\bin\Debug\net5.0\IntroSE.Kanban.Backend.deps.json
+C:\Users\ynal6\Desktop\School\Semester B\Software Engineering\projectCheck\milestone1-emi\Backend\bin\Debug\net5.0\IntroSE.Kanban.Backend.dll
+C:\Users\ynal6\Desktop\School\Semester B\Software Engineering\projectCheck\milestone1-emi\Backend\bin\Debug\net5.0\ref\IntroSE.Kanban.Backend.dll
+C:\Users\ynal6\Desktop\School\Semester B\Software Engineering\projectCheck\milestone1-emi\Backend\bin\Debug\net5.0\IntroSE.Kanban.Backend.pdb
+C:\Users\ynal6\Desktop\School\Semester B\Software Engineering\projectCheck\milestone1-emi\Backend\obj\Debug\net5.0\Backend.csprojAssemblyReference.cache
+C:\Users\ynal6\Desktop\School\Semester B\Software Engineering\projectCheck\milestone1-emi\Backend\obj\Debug\net5.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ynal6\Desktop\School\Semester B\Software Engineering\projectCheck\milestone1-emi\Backend\obj\Debug\net5.0\Backend.AssemblyInfoInputs.cache
+C:\Users\ynal6\Desktop\School\Semester B\Software Engineering\projectCheck\milestone1-emi\Backend\obj\Debug\net5.0\Backend.AssemblyInfo.cs
+C:\Users\ynal6\Desktop\School\Semester B\Software Engineering\projectCheck\milestone1-emi\Backend\obj\Debug\net5.0\Backend.csproj.CoreCompileInputs.cache
+C:\Users\ynal6\Desktop\School\Semester B\Software Engineering\projectCheck\milestone1-emi\Backend\obj\Debug\net5.0\IntroSE.Kanban.Backend.dll
+C:\Users\ynal6\Desktop\School\Semester B\Software Engineering\projectCheck\milestone1-emi\Backend\obj\Debug\net5.0\ref\IntroSE.Kanban.Backend.dll
+C:\Users\ynal6\Desktop\School\Semester B\Software Engineering\projectCheck\milestone1-emi\Backend\obj\Debug\net5.0\IntroSE.Kanban.Backend.pdb

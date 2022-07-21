@@ -1,0 +1,41 @@
+﻿<Window x:Class="IntroSE.Kanban.Frontend.View.MainV"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IntroSE.Kanban.Frontend.View"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="MainV" Height="450" Width="800" Style="{StaticResource {x:Type Window}}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition> 
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.35*"></RowDefinition>
+            <RowDefinition Height="0.08*"></RowDefinition>
+            <RowDefinition Height="0.35*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Content="Kanban" HorizontalAlignment="Center" FontSize="75" VerticalAlignment="Center" ></Label>
+        <Label Grid.Row="1" Content="great tool for project managment and teamwork" HorizontalAlignment="Center" FontSize="20" VerticalAlignment="Top"></Label>
+        <Grid  Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                <ColumnDefinition Width="0.5*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Click="Login_button_click" Grid.Column="0" Width="260" Height="90" FontSize="36" BorderThickness="6" BorderBrush="Black" VerticalAlignment="Top">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Login" FontSize="36" Margin="10"></Label>
+                    <materialDesign:PackIcon Kind="LoginVariant" VerticalAlignment="Center" Height="50" Width="50"/>
+                </StackPanel>
+            </Button>
+            
+            <Button Click="Register_button_click" Grid.Column="1" Width="260" Height="90" FontSize="36" BorderThickness="6" BorderBrush="Black" VerticalAlignment="Top">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Register" FontSize="36" Margin="10"></Label>
+                    <materialDesign:PackIcon Kind="AccountPlusOutline" VerticalAlignment="Center" Height="50" Width="50"/>
+                </StackPanel>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

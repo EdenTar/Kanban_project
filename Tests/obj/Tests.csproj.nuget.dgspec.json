@@ -1,0 +1,152 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ynal6\\Desktop\\School\\Semester B\\Software Engineering\\projectCheck\\milestone1-emi\\Tests\\Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ynal6\\Desktop\\School\\Semester B\\Software Engineering\\projectCheck\\milestone1-emi\\Backend\\Backend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ynal6\\Desktop\\School\\Semester B\\Software Engineering\\projectCheck\\milestone1-emi\\Backend\\Backend.csproj",
+        "projectName": "IntroSE.Kanban.Backend",
+        "projectPath": "C:\\Users\\ynal6\\Desktop\\School\\Semester B\\Software Engineering\\projectCheck\\milestone1-emi\\Backend\\Backend.csproj",
+        "packagesPath": "C:\\Users\\ynal6\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ynal6\\Desktop\\School\\Semester B\\Software Engineering\\projectCheck\\milestone1-emi\\Backend\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ynal6\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.113.7, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ynal6\\Desktop\\School\\Semester B\\Software Engineering\\projectCheck\\milestone1-emi\\Tests\\Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ynal6\\Desktop\\School\\Semester B\\Software Engineering\\projectCheck\\milestone1-emi\\Tests\\Tests.csproj",
+        "projectName": "Tests",
+        "projectPath": "C:\\Users\\ynal6\\Desktop\\School\\Semester B\\Software Engineering\\projectCheck\\milestone1-emi\\Tests\\Tests.csproj",
+        "packagesPath": "C:\\Users\\ynal6\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ynal6\\Desktop\\School\\Semester B\\Software Engineering\\projectCheck\\milestone1-emi\\Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ynal6\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ynal6\\Desktop\\School\\Semester B\\Software Engineering\\projectCheck\\milestone1-emi\\Backend\\Backend.csproj": {
+                "projectPath": "C:\\Users\\ynal6\\Desktop\\School\\Semester B\\Software Engineering\\projectCheck\\milestone1-emi\\Backend\\Backend.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

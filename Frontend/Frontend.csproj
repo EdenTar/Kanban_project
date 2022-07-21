@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>IntroSE.Kanban.Frontend</AssemblyName>
+    <RootNamespace>IntroSE.Kanban.Frontend</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Backend\Backend.csproj" />
+    <ProjectReference Include="..\TestProject1\TestProject1.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,19 @@
+﻿<Window x:Class="IntroSE.Kanban.Frontend.View.PopupErrorV"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IntroSE.Kanban.Frontend.View"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="PopupErrorV" Height="200" Width="400" Background="Red">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <materialDesign:PackIcon Kind="AlertCircle" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="White" Height="30" Width="30"/>
+        <Label Content="{Binding Path=ErrorMsg, Mode=OneTime}" Background="Red" Foreground="White"></Label>
+        <Button Grid.Row="1" Content="Accept" Click="Accept" Background="Red" BorderBrush="White" BorderThickness="4"></Button>
+    </Grid>
+</Window>
